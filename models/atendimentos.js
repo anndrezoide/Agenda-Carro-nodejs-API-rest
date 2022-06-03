@@ -42,6 +42,7 @@ class Atendimento {
 
     listaAtendimentos(res){
         const sql = 'SELECT * FROM Atendimentos'
+        
         conexao.query(sql, (erro, resultados) => {
             if(erro){
                 res.status(400).json(erro)

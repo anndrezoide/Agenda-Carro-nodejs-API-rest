@@ -31,5 +31,4 @@ module.exports = app => {
 
         Atendimento.remove(id, res)
     })
-
 }
